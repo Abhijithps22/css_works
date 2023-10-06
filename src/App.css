@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/* toggel */
+.app {
+  background-color: #f0f0f0; /* Light mode background color */
+  color: #333; /* Light mode text color */
+  transition: background-color 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app.dark {
+  background-color: #333; /* Dark mode background color */
+  color: #f0f0f0; /* Dark mode text color */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.toggle-button {
+  background-color: #f0f0f0; /* Light mode button background color */
+  color: #333; /* Light mode button text color */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30%;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.toggle-button:hover {
+  background-color: #333; /* Button background color on hover */
+  color: #f0f0f0; /* Button text color on hover */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app.dark .toggle-button {
+  background-color: #333; /* Dark mode button background color */
+  color: #f0f0f0; /* Dark mode button text color */
 }

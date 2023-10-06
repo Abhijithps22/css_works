@@ -1,0 +1,329 @@
+.img {
+  padding: 20px;
+}
+.flex-container,
+ul,
+li {
+  background-color: transparent;
+  width: 100% !important;
+  max-height: 200px;
+  display: flex;
+  list-style-type: none;
+  column-gap: 12px;
+  font-size: 1.3rem;
+  justify-content: flex-end;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 3px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+li {
+  background-color: rgb(223, 147, 34);
+  border-radius: 3px;
+  outline: none;
+  margin-right: 10px;
+}
+li:hover {
+  color: aqua;
+}
+
+.text-center {
+  background-color: aqua;
+}
+.cards {
+  margin: 5px 5px;
+  align-self: normal;
+  position: static;
+  z-index: 0;
+}
+
+.class1 {
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
+.menu {
+  background-color: aqua;
+  color: black;
+}
+
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(210, 62, 218);
+  clear: both;
+}
+.a1,
+.a2,
+.a3 {
+  border: 5px solid blue;
+  background-color: brown;
+  margin: 25px;
+}
+.ct {
+  margin-top: 50px;
+}
+.cols1 {
+  width: 33.3%;
+  height: 300px;
+}
+.cols2 {
+  width: 33.3%;
+  height: 300px;
+  text-align: center;
+}
+.cols3 {
+  width: 33.3%;
+  height: 300px;
+}
+.a11 {
+  width: 100%;
+  height: 100px;
+}
+.b11 {
+  width: 100%;
+  height: 100px;
+}
+.c11 {
+  width: 100%;
+  height: 100px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: 5px solid blue;
+  font-size: large;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  color: rgb(32, 207, 13);
+}
+.box {
+  background-color: orange;
+  display: flex;
+  flex-flow: row wrap;
+  max-height: 800px;
+}
+.box > div {
+  width: 20%;
+  margin: 10px;
+  border: 5px solid green;
+  background-color: rgb(226, 223, 22);
+}
+.position {
+  border: 5px solid rgb(97, 219, 27);
+  position: relative;
+  z-index: -1;
+}
+.pos {
+  background-color: rgb(228, 101, 33);
+  margin: auto;
+  height: 80px;
+  width: 20%;
+  border: 3px solid green;
+  padding: 20px;
+}
+.pos1 {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+}
+.pos2 {
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+.pos3 {
+  /* position: absolute; */
+  /* right: 0; */
+}
+.imgs1 {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+  border: 5px solid black;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid {
+  display: grid;
+  place-items: center;
+  background-color: yellowgreen;
+  width: 250px;
+  margin: auto;
+  padding: 5px;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.box-container > div {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  background-color: burlywood;
+  gap: 15px;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgb(224, 224, 224);
+  padding: 20px 0;
+  text-align: center;
+}
+.mainbox {
+  margin: auto;
+  padding: 20px;
+  max-width: 100%;
+  height: 500px;
+  position: relative;
+  border: 5px solid black;
+}
+.newbox {
+  border: 3px solid rgb(56, 102, 56);
+  width: 100px;
+  height: 80px;
+  background-color: aqua;
+  padding: 30px;
+  margin: 10px;
+}
+.n1 {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  background-color: blueviolet;
+}
+.n2 {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  z-index: 1;
+  transform: skewY(20deg);
+}
+.n4 {
+  position: absolute;
+  left: 300px;
+  z-index: 2;
+}
+.col-lg-3 {
+  padding: 5px;
+  column-gap: 10px;
+}
+.boxez {
+  border: 3px solid rgb(163, 14, 14);
+  padding: 10px;
+  position: relative;
+}
+
+.boxed {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  margin: 3px;
+  padding: 5px;
+}
+.b1 {
+  background-color: aqua;
+  position: relative;
+  right: 0;
+  top: 30px;
+  z-index: 0;
+}
+.b2 {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.b3 {
+  position: absolute;
+  background-color: blue;
+  z-index: 1;
+  transform: skewX(25deg);
+}
+.b4 {
+  background-color: brown;
+}
+.b5 {
+  background-color: brown;
+}
+
+.pseudo h2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 30px;
+  color: green;
+  word-spacing: 30px;
+}
+.pseudo h2::before {
+  content: "Good";
+}
+.pseudo h2::after {
+  content: "Work";
+}
+.new-list1 :nth-child(2n) {
+  color: blue;
+  background-color: aqua;
+}
+.new-list2 :nth-child(odd) {
+  color: aquamarine;
+  background-color: blueviolet;
+}
+.new-list3 :nth-child(-n + 4) {
+  color: rgb(208, 208, 26);
+  background-color: yellowgreen;
+}
+.new-list4 :nth-child(5n) {
+  background-color: red;
+}
+.new-list5 :nth-child(5n + 1) {
+  background-color: red;
+}
+.new-list6 :nth-child(5n-1) {
+  background-color: rgb(195, 17, 174);
+}
+
+.grid-wrapper {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 50px;
+  text-align: center;
+  max-width: 800px;
+  height: 500px;
+  background-color: aqua;
+}
+.grid-items {
+  background-color: blue;
+  border: 3px solid burlywood;
+}
+.item3grid {
+  background-color: blueviolet;
+  grid-column-start: 1;
+  grid-row-end: 2;
+}

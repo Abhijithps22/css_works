@@ -1,0 +1,61 @@
+.grid_combinators h3 {
+  color: green;
+}
+.grid_combinators {
+  text-align: center;
+}
+div ~ p {
+  color: green;
+}
+
+.psuedo_nth {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  padding: 0px;
+  background-color: red;
+  gap: 3px;
+}
+.box_grid {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  background-color: green;
+}
+.box_1 {
+  grid-column: 1 / span 2;
+  grid-row: 1/3;
+}
+
+.position_relative {
+  position: relative;
+  margin-top: 2em;
+  width: 300px;
+  padding: 2em;
+  height: 300px;
+  border: 2px solid red;
+}
+.postion_absolute {
+  position: absolute;
+  background-color: rgb(15, 175, 0);
+  top: 0px;
+  z-index: 1;
+}
+.postion_absolute2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 8px;
+  background-color: rgb(255, 19, 19);
+  width: 200px;
+  padding: 2em;
+  height: 200px;
+  border: 3px solid rgb(3, 182, 72);
+  z-index: 0;
+}
+.postion_absolute3 {
+  position: absolute;
+  background-color: blue;
+  top: 0px;
+  z-index: 2;
+}
